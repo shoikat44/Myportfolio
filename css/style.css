@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+header{
+    background: #3d3fae;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 70%;
+    float: left;
+}
+
+.logo img{
+	width: 175px;
+}
+.menu{
+    width: 30%;
+    float: right;
+    white-space: nowrap;
+}
+.menu{}
+.menu-list{
+    width: 100%;
+    background: #3d3fae;
+    padding: 25px;
+}
+.menu-list a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #3d52aedb;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.about-myself{
+    overflow: hidden;
+    background: #E9EBEE;
+    padding: 76px;
+    box-shadow: 0 0 2px;
+}
+.details-about-myself{
+    width: 70%;
+    float: left;
+}
+.my-imege{
+    width: 28%;
+    float: right;
+    border: 2px solid #00000066;
+    box-shadow: 0 0 7px;
+}
+.my-imege img{
+    width: 100%;
+}
+.Portfolio-gallary{
+    background: #E9EBEE;
+}
+.Portfolio-gallary h4{
+    text-align: center;
+    font-size: 26px;
+    font-variant: all-small-caps;
+    text-decoration: underline;
+    margin: 0;
+    padding: 50px;
+}
+.project-gallary{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.project-gallary a{}
+.project-gallary a img{
+    max-width: 100%;
+}
+.details-about-myself h2{
+    font-size: 30px;
+}
+.details-about-myself h1{
+    font-size: 33px;
+}
+.details-about-myself span{}
