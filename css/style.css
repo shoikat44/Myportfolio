@@ -37,7 +37,9 @@ header{
     background-color: #3d52aedb;
     box-sizing: border-box;
     border: 1px solid black;
+    transition-duration: 0.4s;
 }
+.menu-list a:hover{opacity: 0.5;}
 .about-myself{
     overflow: hidden;
     background: #E9EBEE;
@@ -56,9 +58,14 @@ header{
 }
 .my-imege img{
     width: 100%;
+    transition-duration: 0.4s;
+}
+.my-imege img:hover{
+    opacity: 0.5;
 }
 .Portfolio-gallary{
     background: #E9EBEE;
+    padding: 50px;
 }
 .Portfolio-gallary h4{
     text-align: center;
@@ -83,6 +90,11 @@ header{
     height: 200px;
     background-repeat:   no-repeat;
     background-size: cover;
+    transition-duration: 0.4s;
+}
+
+.project-gallary a img:hover{
+    opacity: 0.5;
 }
 .details-about-myself h2{
     font-size: 30px;
@@ -91,3 +103,56 @@ header{
     font-size: 33px;
 }
 .details-about-myself span{}
+
+
+footer{
+    background: #e3e3e3;
+    padding: 10px 0;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+    float: left;
+    list-style: none;
+}
+.footer-menu ul li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding-right: 20px;
+    transition-duration: 0.4s;
+}
+.footer-menu ul li a:hover{
+    opacity: 0.5;
+}
+
+.socil-link{
+    width: 50%;
+    float: left;
+}
+.socil-link ul{
+    text-align: right;
+}
+.socil-link ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.socil-link ul li a{
+    color: #333;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    transition-duration: 0.4s;
+}
+.socil-link ul li a:hover{
+    background: #333;
+    color: #efefef;
